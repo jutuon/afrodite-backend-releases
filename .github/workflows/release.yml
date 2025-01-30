@@ -73,16 +73,16 @@ jobs:
         run: |
           echo "## Files and checksums (SHA-256)" >> description.txt
 
-          echo "$ASSET_1" >> description.txt
-
-          echo '```' >> description.txt
-          echo "$CHECKSUM_1" >> description.txt
-          echo '```' >> description.txt
-
           echo "$ASSET_2" >> description.txt
 
           echo '```' >> description.txt
           echo "$CHECKSUM_2" >> description.txt
+          echo '```' >> description.txt
+
+          echo "$ASSET_1" >> description.txt
+
+          echo '```' >> description.txt
+          echo "$CHECKSUM_1" >> description.txt
           echo '```' >> description.txt
 
           echo "## Source code" >> description.txt
